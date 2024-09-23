@@ -1,0 +1,47 @@
+/* home.css */
+.home {
+    background: linear-gradient(to bottom, #2c2c2c, #2b6c8e); /* Igual que en el login */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+.logo{
+    border-radius: 5px;
+}
+
+.cabecera {
+    background-color: #2b6c8e; /* Fijar cabecera al esquema de azul oscuro */
+    color: #ffffff; /* Texto claro */
+}
+
+.acerca-de-section, .seccion-coches, .consulta-section {
+    background-color: #2C2C2C; /* Fondo oscuro */
+    color: #ffffff; /* Texto claro */
+    border: 1px solid #2b6c8e; /* Borde azul oscuro */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.acerca-de-section h3, .seccion-coches h3, .consulta-section h3 {
+    color: #FFC107; /* Texto en dorado */
+}
+
+
+.btn-warning:hover {
+    background-color: #FFD700; /* Efecto más claro al pasar el ratón */
+    border-color: #FFD700;
+}
+
+form .form-label {
+    color: #ffffff; /* Etiquetas de formulario en blanco */
+}
+
+form .form-control {
+  
+    border-color: #2b6c8e; /* Bordes azul oscuro */
+}
+
+form .form-control::placeholder {
+    color: #aaaaaa; /* Placeholder gris */
+}

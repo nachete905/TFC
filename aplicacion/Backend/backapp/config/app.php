@@ -123,4 +123,20 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Service Providers
+    |--------------------------------------------------------------------------
+    |
+    | Here you may list the service providers for your application. Laravel's
+    | default service providers are already listed here. You may add any
+    | additional service providers your application requires.
+    |
+    */
+
+
+
+
+
+
 ];
